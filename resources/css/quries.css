@@ -1,0 +1,349 @@
+/*( for big leblet)*/
+@media only screen and (max-width: 1200px) {
+  .favourite_meals .meals_showcase {
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    /* margin: 0; */
+    /* margin-left: 0; */
+    float: left;
+    margin: 0;
+  }
+  .section_steps {
+    width: 100%;
+    height: 85vh;
+    padding: 2rem 0 5rem;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+  .sections_plans {
+    background-color: #f4f4f4;
+    height: 70vh;
+    padding: 6rem 0 20rem;
+  }
+  .inner_nav {
+    padding: 0 2%;
+  }
+  .hero_text .inner_hero_text {
+    width: 100%;
+    padding-left: 2%;
+  }
+
+  .step-box:last-child {
+    width: 46%;
+  }
+  .plan_box {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/*( for small to big leblet)*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 1.8rem;
+  }
+  /*
+    section{
+padding: 6rem 0;
+    }
+*/
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .hero_text .inner_hero_text h1 {
+    font-size: 12rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .section_features .bot {
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+  .favourite_meals {
+    padding: 0;
+    height: inherit;
+  }
+  .section_features {
+    padding: 2rem 0;
+  }
+  .step-box:last-child {
+    width: 43%;
+  }
+  .section_steps {
+    width: 100%;
+    height: 85vh;
+    padding: 2rem 0 4rem;
+  }
+}
+
+/*( for small phone to small leblet)*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .navbar {
+    width: 100vw;
+  }
+  .inner_nav {
+    padding: 0;
+  }
+  .inner_nav .logo {
+    height: 65px;
+    margin-top: 18px;
+    float: left;
+  }
+  .mobile-nav-icon {
+    float: right;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 2rem;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .hero_text .inner_hero_text h1 {
+    font-size: 8rem;
+  }
+
+  /*    .row,.hero-text{padding: 0 4%;}*/
+  .col {
+    width: 100%;
+  }
+  .section_steps {
+    width: 100%;
+    display: inline-table;
+  }
+  .step-box:first-child {
+    text-align: center;
+    width: 100%;
+  }
+  .step-box:last-child {
+    width: 100%;
+  }
+  .section-city {
+    width: auto;
+    /* height: 60vh; */
+    /* padding: 7rem 0; */
+    display: inline-table;
+  }
+  .customer_test {
+    display: inline-table;
+  }
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  .plan_box div:first-child {
+    border-radius: 0%;
+  }
+  .sections_plans {
+    display: table-footer-group;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .inner_nav .main_nav {
+    float: left;
+    margin-top: 4rem;
+  }
+
+  .inner_nav .main_nav li {
+    padding-bottom: 2rem;
+    display: block;
+  }
+  .inner_nav .main_nav li a {
+    font-size: 2.3rem;
+  }
+  .sticky .inner_nav .main_nav {
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+  }
+  .sticky .inner_nav .main_nav li a {
+    font-size: 2.5rem;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+  .main_nav {
+    display: none;
+  }
+}
+
+/*( for small phone )*/
+@media only screen and (max-width: 480px) {
+  /* .main_nav {
+    text-align: center;
+    width: 50%;
+  } */
+  .navbar {
+    width: 100vw;
+  }
+  .inner_nav {
+    padding: 0;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sticky .inner_nav .main_nav li::after {
+    top: 20px;
+  }
+  .sticky .inner_nav .main_nav li a {
+    color: #555;
+    font-size: 1.5rem;
+  }
+  .sticky .inner_nav .main_nav {
+    margin-left: 0;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+    margin-right: 2rem;
+  }
+  .inner_nav .main_nav li {
+    margin-left: 6.5rem;
+    text-align: center;
+  }
+  .inner_nav .main_nav li a {
+    color: #000;
+    font-size: 1.5rem;
+  }
+
+  .inner_nav .logo {
+    height: 45px;
+    margin: 13px 0;
+    float: left;
+  }
+  .mobile-nav-icon {
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .mobile-nav-icon i {
+    color: #000;
+    font-size: 2.5rem;
+  }
+  header {
+    width: 100%;
+    height: 80vh;
+  }
+  .hero_text .inner_hero_text h1 {
+    font-size: 4.5rem;
+  }
+  .hero_text .inner_hero_text p {
+    font-size: 16px;
+    color: #f7f7f7;
+    letter-spacing: 6px;
+    line-height: 30px;
+    word-spacing: 2px;
+    text-align: center !important;
+  }
+  .hero_text .inner_hero_text .btn,
+  input[type="submit"] {
+    padding: 15px 30px;
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+  .section_features h2 {
+    margin: 30px auto 0;
+    padding-bottom: 50px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    line-height: 1.2;
+  }
+  p {
+    text-align: start;
+    font-size: 1.3 !important;
+  }
+  .section_features .bot {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  .meals_showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .meals_showcase li {
+    display: block;
+    width: 90%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .work_step {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .work_step span {
+    font-size: 1.5rem;
+    color: #eb8f4d;
+    border: 1px solid #eb8f4d;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .first_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .step-box:last-child {
+    margin-top: 1rem;
+    padding-left: 2.2rem;
+  }
+  .work_step p {
+    font-size: 1.3rem;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+  .btn-app img {
+    width: auto;
+    height: 4rem;
+    /* margin-right: 1rem; */
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .city {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .box img {
+    width: 90%;
+  }
+  .plan_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .fix-title {
+    margin-top: 4rem;
+  }
+  .main_footer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .footer-alt {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
